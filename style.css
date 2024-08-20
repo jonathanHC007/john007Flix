@@ -1,0 +1,66 @@
+body{
+    background-color: #17753e;
+    margin: 0px;
+    font-family: "Roboto Slab", serif;
+    margin-bottom: 100px;
+}
+header{
+    border-bottom: solid 2px #17753e;
+    padding: 10px;
+    font-size: 32px;
+    color: #17753e;          
+}
+
+h1{
+    font-size: 35px;    
+}
+
+p{
+    color: aliceblue;
+    font-size: 20px;
+}
+
+section{
+    background-color:rgb(242, 255, 0);   
+    padding-bottom:80px; 
+    padding-top:80px;
+    display: flex;
+    justify-content: center;   
+}
+
+.conteiner{
+    margin-right: 0px;
+    
+}   
+img{
+    height: 200px;
+}
+.video-cr7 img{
+
+ opacity: 0.5;
+ height: 200px;   
+}
+
+.video-cr7 img:hover{
+    opacity: 1.0;
+    border: #17753e solid 3px;
+    cursor: pointer;
+
+}
+ 
+.secao h2{
+   
+    color: #1b5948;
+
+}
+.secao{
+   padding-left: 20px;
+   padding-right: 20px;
+   margin-top: 50px;
+
+}
+.video-cr7{
+  display: flex;
+  overflow-x: auto;
+  gap: 0.5px;
+}
